@@ -11,10 +11,7 @@ def AND(x1, x2):
 
 #ANDゲート（バイアスに変形）
 def AND2(x1, x2):
-  x = np.array([x1, x2])
-  w = np.array([0.5, 0.5])
-  b = -0.7
-  tmp = np.sum(w + x) + b
+  x = np.array([x1, x2]) ) + b
   if tmp <= 0:
     return 0
   else:
