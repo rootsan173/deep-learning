@@ -33,7 +33,7 @@ def softmax(a):
   y = exp_a / sum_exp_a
   return y
 
-
+'''
 #グラフ表示
 x = np.arange(-5.0, 5.0, 0.1)
 y = relu(x)
@@ -41,3 +41,4 @@ fig = plt.figure()
 plt.plot(x, y)
 plt.ylim(-1, 5)
 fig.savefig("relu_function.png")
+'''
